@@ -1,0 +1,81 @@
+#wrapper {
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+  position: relative;
+  padding: 60px 40px;
+}
+.top {
+  width: 100%;
+  height: calc(40% - 3px);
+  margin-bottom: 6px;
+}
+.topimg {
+  width:calc(35% - 4px);
+  height: 100%;
+  background-image: url("https://images.pexels.com/photos/37403/bora-bora-french-polynesia-sunset-ocean.jpg?auto=compress&cs=tinysrgb&h=350");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: calc(25% - 4px + 6px);
+}
+.bottom {
+  width: 100%;
+  height: calc(60% - 3px);
+}
+.blimg {
+  height: 60%;
+  width: calc(35% - 4px);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyC0TtfjCxSd1fj_NKhCWquzcCf9e4LtCZM9bsKShjBDvc1gVY");
+  background-size: cover;
+  background-position: center;
+  margin-right: 6px;
+  float: left;
+}
+.bmimg {
+  height: 100%;
+  width: calc(25% - 4px);
+  background-image: url("https://i.pinimg.com/236x/e2/df/94/e2df949137db4656dcdb2c3fb7f28705--leap-of-faith-cliff-diving.jpg");
+  margin-right: 6px;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+.brimg {
+  height: 60%;
+  width: calc(35% - 4px);
+  background-image: url("http://smashinghub.com/wp-content/uploads/2011/07/sun-light-on-beach-15.jpg");
+  float: left;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  bottom: 100px;
+}
+.words {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.bigwords, .littlewords {
+  width: max-content;
+  height: max-content;
+  text-align: center;
+  margin: 30px auto;
+  color: grey;
+}
+
+.bigwords {
+  font-size: 40px;
+  font-family: 'Crimson Text', serif;
+}
+
+.littlewords {
+  font-size: 20px;
+  font-family: cursive;
+  font-style: italic;
+}
